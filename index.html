@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>my first page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="navbar-fixed-top navbar navbar-inverse"
+     style="font-size: 30px;color: white;padding-left: 100px;font-family: 黑体">高考志愿</div>
+    <br><br><br>
+
+<div class="container" style="width: 40%">
+    <div ><!--<h3 class="text-center">高考志愿</h3>-->
+        <ul class="nav nav-tabs">
+            <li><a href="#login" data-toggle="tab">登录</a></li>
+            <li><a href="#register" data-toggle="tab">注册</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="login" class="tab-pane fade in active">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><label class="glyphicon glyphicon-leaf">用户登录</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="input-group">
+                            <label class="input-group-addon">用户名</label>
+                            <input type="text" placeholder="请输入用户名" class="form-control">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <label class="input-group-addon">密&nbsp&nbsp&nbsp码</label>
+                            <input type="password" placeholder="请输入密码" class="form-control">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <label class="input-group-addon">验证码</label>
+                            <input type="text" placeholder="请输入验证码" class="form-control">
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a href="" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>登录</a>
+                            <a href="" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span>取消</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="register" class="tab-pane fade in">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><label class="glyphicon glyphicon-leaf">用户注册</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="input-group">
+                            <label class="input-group-addon">用户名</label>
+                            <input type="text" placeholder="请输入用户名" class="form-control">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                        <label class="input-group-addon">密&nbsp&nbsp&nbsp码</label>
+                        <input type="password" placeholder="请输入密码" class="form-control">
+                    </div>
+                        <br>
+                        <div class="input-group">
+                            <label class="input-group-addon">确认密码</label>
+                            <input type="password" placeholder="请输入确认密码" class="form-control">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <label class="input-group-addon">邮&nbsp&nbsp&nbsp箱</label>
+                            <input type="text" placeholder="请输入邮箱" class="form-control">
+                        </div>
+                        <br>
+                        <div align="right"><a href="" class="">忘记密码</a></div>
+                        <div class="text-center">
+                            <a href="" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>注册</a>
+                            <a href="" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span>取消</a>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="navbar-fixed-bottom" align="center">
+    &copy:2019-2020 曲 Copy Right
+</div>
+</body>
+</html>
